@@ -1,4 +1,6 @@
 import pygame as pg
+from pygame.locals import *
+import random, sys
 
 screen = pg.display.set_mode((900, 700))
 pg.display.set_caption('Chess Pro')
@@ -86,5 +88,134 @@ while not done:
     screen.blit(asb_w2, tuple(pos0_w[asb_w2]))
     screen.blit(rokh_w1, tuple(pos0_w[rokh_w1]))
     screen.blit(rokh_w2, tuple(pos0_w[rokh_w2]))
+    mouse_pos = pg.mouse.get_pos()
+    if mouse_pos[0] in range(169, 238) and mouse_pos[1] in range(97, 159):
+        pass
+    if mouse_pos[0] in range(240, 307) and mouse_pos[1] in range(97, 159):
+        pass
+    if mouse_pos[0] in range(310, 378) and mouse_pos[1] in range(97, 159):
+        pass
+    if mouse_pos[0] in range(381, 448) and mouse_pos[1] in range(97, 159):
+        pass
+    if mouse_pos[0] in range(451, 519) and mouse_pos[1] in range(97, 159):
+        pass
+    if mouse_pos[0] in range(521, 590) and mouse_pos[1] in range(97, 159):
+        pass
+    if mouse_pos[0] in range(592, 661) and mouse_pos[1] in range(97, 159):
+        pass
+    if mouse_pos[0] in range(663, 731) and mouse_pos[1] in range(97, 159):
+        pass
+    if mouse_pos[0] in range(169, 238) and mouse_pos[1] in range(162, 222):
+        pass
+    if mouse_pos[0] in range(240, 307) and mouse_pos[1] in range(162, 222):
+        pass
+    if mouse_pos[0] in range(310, 378) and mouse_pos[1] in range(162, 222):
+        pass
+    if mouse_pos[0] in range(381, 448) and mouse_pos[1] in range(162, 222):
+        pass
+    if mouse_pos[0] in range(451, 519) and mouse_pos[1] in range(162, 222):
+        pass
+    if mouse_pos[0] in range(521, 590) and mouse_pos[1] in range(162, 222):
+        pass
+    if mouse_pos[0] in range(592, 661) and mouse_pos[1] in range(162, 222):
+        pass
+    if mouse_pos[0] in range(663, 731) and mouse_pos[1] in range(162, 222):
+        pass
+    if mouse_pos[0] in range(169, 238) and mouse_pos[1] in range(224, 285):
+        pass
+    if mouse_pos[0] in range(240, 307) and mouse_pos[1] in range(224, 285):
+        pass
+    if mouse_pos[0] in range(310, 378) and mouse_pos[1] in range(224, 285):
+        pass
+    if mouse_pos[0] in range(381, 448) and mouse_pos[1] in range(224, 285):
+        pass
+    if mouse_pos[0] in range(451, 519) and mouse_pos[1] in range(224, 285):
+        pass
+    if mouse_pos[0] in range(521, 590) and mouse_pos[1] in range(224, 285):
+        pass
+    if mouse_pos[0] in range(592, 661) and mouse_pos[1] in range(224, 285):
+        pass
+    if mouse_pos[0] in range(663, 731) and mouse_pos[1] in range(224, 285):
+        pass
+    if mouse_pos[0] in range(169, 238) and mouse_pos[1] in range(287, 348):
+        pass
+    if mouse_pos[0] in range(240, 307) and mouse_pos[1] in range(287, 348):
+        pass
+    if mouse_pos[0] in range(310, 378) and mouse_pos[1] in range(287, 348):
+        pass
+    if mouse_pos[0] in range(381, 448) and mouse_pos[1] in range(287, 348):
+        pass
+    if mouse_pos[0] in range(451, 519) and mouse_pos[1] in range(287, 348):
+        pass
+    if mouse_pos[0] in range(521, 590) and mouse_pos[1] in range(287, 348):
+        pass
+    if mouse_pos[0] in range(592, 661) and mouse_pos[1] in range(287, 348):
+        pass
+    if mouse_pos[0] in range(663, 731) and mouse_pos[1] in range(287, 348):
+        pass
+    if mouse_pos[0] in range(169, 238) and mouse_pos[1] in range(350, 412):
+        pass
+    if mouse_pos[0] in range(240, 307) and mouse_pos[1] in range(350, 412):
+        pass
+    if mouse_pos[0] in range(310, 378) and mouse_pos[1] in range(350, 412):
+        pass
+    if mouse_pos[0] in range(381, 448) and mouse_pos[1] in range(350, 412):
+        pass
+    if mouse_pos[0] in range(451, 519) and mouse_pos[1] in range(350, 412):
+        pass
+    if mouse_pos[0] in range(521, 590) and mouse_pos[1] in range(350, 412):
+        pass
+    if mouse_pos[0] in range(592, 661) and mouse_pos[1] in range(350, 412):
+        pass
+    if mouse_pos[0] in range(663, 731) and mouse_pos[1] in range(350, 412):
+        pass
+    if mouse_pos[0] in range(169, 238) and mouse_pos[1] in range(414, 475):
+        pass
+    if mouse_pos[0] in range(240, 307) and mouse_pos[1] in range(414, 475):
+        pass
+    if mouse_pos[0] in range(310, 378) and mouse_pos[1] in range(414, 475):
+        pass
+    if mouse_pos[0] in range(381, 448) and mouse_pos[1] in range(414, 475):
+        pass
+    if mouse_pos[0] in range(451, 519) and mouse_pos[1] in range(414, 475):
+        pass
+    if mouse_pos[0] in range(521, 590) and mouse_pos[1] in range(414, 475):
+        pass
+    if mouse_pos[0] in range(592, 661) and mouse_pos[1] in range(414, 475):
+        pass
+    if mouse_pos[0] in range(663, 731) and mouse_pos[1] in range(414, 475):
+        pass
+    if mouse_pos[0] in range(169, 238) and mouse_pos[1] in range(477, 538):
+        pass
+    if mouse_pos[0] in range(240, 307) and mouse_pos[1] in range(477, 538):
+        pass
+    if mouse_pos[0] in range(310, 378) and mouse_pos[1] in range(477, 538):
+        pass
+    if mouse_pos[0] in range(381, 448) and mouse_pos[1] in range(477, 538):
+        pass
+    if mouse_pos[0] in range(451, 519) and mouse_pos[1] in range(477, 538):
+        pass
+    if mouse_pos[0] in range(521, 590) and mouse_pos[1] in range(477, 538):
+        pass
+    if mouse_pos[0] in range(592, 661) and mouse_pos[1] in range(477, 538):
+        pass
+    if mouse_pos[0] in range(663, 731) and mouse_pos[1] in range(477, 538):
+        pass
+    if mouse_pos[0] in range(169, 238) and mouse_pos[1] in range(541, 602):
+        pass
+    if mouse_pos[0] in range(240, 307) and mouse_pos[1] in range(541, 602):
+        pass
+    if mouse_pos[0] in range(310, 378) and mouse_pos[1] in range(541, 602):
+        pass
+    if mouse_pos[0] in range(381, 448) and mouse_pos[1] in range(541, 602):
+        pass
+    if mouse_pos[0] in range(451, 519) and mouse_pos[1] in range(541, 602):
+        pass
+    if mouse_pos[0] in range(521, 590) and mouse_pos[1] in range(541, 602):
+        pass
+    if mouse_pos[0] in range(592, 661) and mouse_pos[1] in range(541, 602):
+        pass
+    if mouse_pos[0] in range(663, 731) and mouse_pos[1] in range(541, 602):
+        pass
 
     pg.display.flip()
